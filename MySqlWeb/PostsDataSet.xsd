@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PostsDataSet" targetNamespace="http://tempuri.org/PostsDataSet.xsd" xmlns:mstns="http://tempuri.org/PostsDataSet.xsd" xmlns="http://tempuri.org/PostsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PostsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PostsDataSet" msprop:Generator_UserDSName="PostsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="wp_postmeta" msprop:Generator_TableClassName="wp_postmetaDataTable" msprop:Generator_TableVarName="tablewp_postmeta" msprop:Generator_TablePropName="wp_postmeta" msprop:Generator_RowDeletingName="wp_postmetaRowDeleting" msprop:Generator_RowChangingName="wp_postmetaRowChanging" msprop:Generator_RowEvHandlerName="wp_postmetaRowChangeEventHandler" msprop:Generator_RowDeletedName="wp_postmetaRowDeleted" msprop:Generator_UserTableName="wp_postmeta" msprop:Generator_RowChangedName="wp_postmetaRowChanged" msprop:Generator_RowEvArgName="wp_postmetaRowChangeEvent" msprop:Generator_RowClassName="wp_postmetaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="meta_id" msprop:Generator_ColumnVarNameInTable="columnmeta_id" msprop:Generator_ColumnPropNameInRow="meta_id" msprop:Generator_ColumnPropNameInTable="meta_idColumn" msprop:Generator_UserColumnName="meta_id" type="xs:string" minOccurs="0" />
+              <xs:element name="post_id" msprop:Generator_ColumnVarNameInTable="columnpost_id" msprop:Generator_ColumnPropNameInRow="post_id" msprop:Generator_ColumnPropNameInTable="post_idColumn" msprop:Generator_UserColumnName="post_id" type="xs:string" minOccurs="0" />
+              <xs:element name="meta_key" msprop:Generator_ColumnVarNameInTable="columnmeta_key" msprop:Generator_ColumnPropNameInRow="meta_key" msprop:Generator_ColumnPropNameInTable="meta_keyColumn" msprop:Generator_UserColumnName="meta_key" type="xs:string" minOccurs="0" />
+              <xs:element name="meta_value" msprop:Generator_ColumnVarNameInTable="columnmeta_value" msprop:Generator_ColumnPropNameInRow="meta_value" msprop:Generator_ColumnPropNameInTable="meta_valueColumn" msprop:Generator_UserColumnName="meta_value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="post_ids" msprop:Generator_TableClassName="post_idsDataTable" msprop:Generator_TableVarName="tablepost_ids" msprop:Generator_TablePropName="post_ids" msprop:Generator_RowDeletingName="post_idsRowDeleting" msprop:Generator_RowChangingName="post_idsRowChanging" msprop:Generator_RowEvHandlerName="post_idsRowChangeEventHandler" msprop:Generator_RowDeletedName="post_idsRowDeleted" msprop:Generator_UserTableName="post_ids" msprop:Generator_RowChangedName="post_idsRowChanged" msprop:Generator_RowEvArgName="post_idsRowChangeEvent" msprop:Generator_RowClassName="post_idsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="post_id" msprop:Generator_ColumnVarNameInTable="columnpost_id" msprop:Generator_ColumnPropNameInRow="post_id" msprop:Generator_ColumnPropNameInTable="post_idColumn" msprop:Generator_UserColumnName="post_id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
